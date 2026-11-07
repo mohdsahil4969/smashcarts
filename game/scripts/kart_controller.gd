@@ -107,7 +107,7 @@ func _build_camera() -> void:
     add_child(camera_pivot)
     var camera := Camera3D.new()
     camera.position = Vector3(0, 4.0, 8.5)
-    camera.rotation_degrees = Vector3(-18, 180, 0)
+    camera.rotation_degrees = Vector3(-18, 0, 0)
     camera.current = true
     camera.fov = 72
     camera_pivot.add_child(camera)
